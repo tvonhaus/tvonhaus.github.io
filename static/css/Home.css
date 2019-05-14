@@ -1,0 +1,29 @@
+body{
+    background-image: linear-gradient(#E5EEC1,#A2D4AB,#3EACA8,#547A82,#5A5050);
+    background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: 100% 100%;
+}
+
+.header{
+    background-color: #5A5050;
+    overflow: hidden;
+    position: static;
+    padding: 20px 10px;
+}
+.header a{
+    padding: 20px;
+    font-family: Quicksand;
+    font-size: 30px;
+    float: left;
+    color: #547A82
+    /* color: #3EACA8 */
+    /* color: #5A5050 */
+}
+.header a:hover{
+    color: #5A5050
+}
+.header-right{
+    float: right;
+}
+
