@@ -2,25 +2,31 @@ body{
     margin: 0;
     padding: 0;
     /* background-image: linear-gradient(#E5EEC1,#A2D4AB,#3EACA8,#547A82,#5A5050); */
-    background-image: linear-gradient(#E5EEC1,#A2D4AB);
-    background-image: linear-gradient(#E5EEC1,#A2D4AB);
+    /* background-image: linear-gradient(#5A5050,#547A82);  */
+    background-color:#5A5050;
     /* background-image: linear-gradient(#FFC300,#FF5733,#C70039,#900C3F,#581845); */
     background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-size: 100% 100%;
 }
-
+.home{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-evenly;
+}
 .header{
-    /* background-color: #5A5050; */
-    background-color: #547A82;
+    text-align: center;
     overflow: hidden;
-    position: relative;
     padding: 0px;
     margin: 0px;
 }
-.header-image{
-    padding-left: 50px;
+.header-text{
+    font-family: Quicksand;
+    color: papayawhip;
 }
+
+/*
 .header a{
     padding: 20px;
     font-size: 20px;
@@ -29,15 +35,49 @@ body{
     text-align: center;
     float: left;
     color: #3EACA8
-    /* color: #3EACA8 */
-    /* color: #5A5050 */
 }
-.header a:hover{
-    color: #A2D4AB
+*/
+
+.menu {
+    width: 200px;
+    margin-right: 200px;
 }
-.header-right{
-    float: right;
-    font-size: 20px;
+.menu a {
+    color: papayawhip;
+    display: block;
+    margin: 75px;
+    padding: 20 px;
+    margin-left: 150px;
+    text-decoration: none;
+    font-family: Quicksand;
+    float: left;
+    font-size: 25px;
+}
+.menu a:hover{
+    color: rgb(172, 136, 185);
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+     -o-transform: scale(1.2);
+     transform: scale(1.2);
+     transition: all 0.5s;
+     -webkit-transition: all 0.5s;
+}
+
+.links{
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+}
+.links a{
+    margin: 50px;
+}
+.links a:hover{
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+     -o-transform: scale(1.2);
+     transform: scale(1.2);
+     transition: all 0.5s;
+     -webkit-transition: all 0.5s;
 }
 
 /*#581845, #900C3F, #C70039, #FF5733, #FFC300
