@@ -39,19 +39,19 @@ body{
 */
 
 .menu {
+    margin-top: 100px;
     width: 200px;
-    margin-right: 200px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
 .menu a {
     color: papayawhip;
-    display: block;
-    margin: 75px;
-    padding: 20 px;
-    margin-left: 150px;
+    display: flex;
     text-decoration: none;
     font-family: Quicksand;
-    float: left;
-    font-size: 25px;
+    font-size: 42px;
+    justify-content: center;
 }
 .menu a:hover{
     color: rgb(172, 136, 185);
