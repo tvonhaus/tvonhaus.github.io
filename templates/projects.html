@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+
+<html>
+<link rel="stylesheet" type="text/css" href="../static/css/Projects.css">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+        <Title>Taylor von Hausen</Title>
+        <link rel="tvh icon" type="image/png" href="../static/images/tvh2.png"/>
+        <link href="https://fonts.googleapis.com/css?family=Playfair+Display|Quicksand" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Racing+Sans+One" rel="stylesheet">
+</head>
+
+<body>
+        <div class="header">
+                <div class="header-text">
+                        <h1>Taylor von Hausen</h1>
+                        <div class="home">
+                            <div class="menu">
+                                <a href="Home.html">HOME</a>
+                            </div>
+                        </div>
+                </div>
+                <div class="links">
+                        <a class ="git" href="https://github.com/tvonhaus">
+                                <img class="git" src="../static/images/github2.png" width ="30" height ="30" hspace="30">
+                        </a>
+                        <a class ="linkedin" href="https://ca.linkedin.com/in/taylor-von-hausen">
+                                <img class="linkedin" src="../static/images/linkedin2.png" width ="30" height ="30" hspace="30">
+                        </a>
+                        <a class ="mail" href="mailto:tvonhaus@uoguelph.ca">
+                                <img class="mail" src="../static/images/mail2.png" width="30" height ="30" hspace="30">
+                        </a>
+                </div>
+                <div class="pagetitle">
+                    <a>PROJECTS</a>
+                </div>
+        </div>
+	<div class="aboutme">
+        <div class="crisiscommunicator">
+            <a class="crisistitle">Crisis Communicator</a>
+            <p> Developed a device that when switched on, sends vitals information of wearer to an end device and communicates an emergency signal via SMS.
+            <br>Onboard sensors monitor heart rate, skin temperature and motion detection connected to an XBee radio module that sends the information to another coordinator XBee device. The coordinator device connects to a Raspberry Pi base station that uses multi-thread Python code to process the vitals data and send emergency alerts via SMS and PushBullet.
+            </p>
+        </div>
+        <div class="intruder">
+            <a class="intrudertitle">Embedded Intruder Detection System</a>
+            <p> Used an STM32 development board, a PIR sensor to detect intruder motion and an I2C camera module to take a picture of an intruder when motion is detected. The system was developed using the FreeRTOS platform and 4 real-time tasks were made with different priorities, an interrupt handle and GPIO was configured to interface the PIR sensor and camera.
+            </p>
+        </div>
+    </div>
+</body>
+</html>
